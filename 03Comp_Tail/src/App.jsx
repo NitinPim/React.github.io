@@ -17,10 +17,14 @@ function App() {
       </div>
       <p>Developer Details.</p>
       <div className="flex gap-4 ">
-        <Card first="Nitin" BtnText="Click me" work="FrontEnd Developer" />
+        <Card
+          first="Nitin"
+          BtnText="Click me"
+          work="FrontEnd Developer"
+        />
         <Card first="Ashish" work="FullStack Developer / Java Developer" />
-        <Card first="Mama"/>
-        <Card first="Butterfly"/>
+        <Card first="Mama" />
+        <Card first="Butterfly" />
       </div>
     </>
   );
