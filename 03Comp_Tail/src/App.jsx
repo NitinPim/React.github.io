@@ -11,8 +11,7 @@ function App() {
       <div className="card">
         <button
           className="bg-gray-700 text-white p-3 rounded-md hover:bg-black"
-          onClick={() => setCount((count) => count + 1)}
-        >
+          onClick={() => setCount((count) => count + 1)}>
           Count is {count}
         </button>
       </div>
