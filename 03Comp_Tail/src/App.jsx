@@ -12,7 +12,7 @@ function App() {
         <button
           className="bg-gray-700 text-white p-3 rounded-md hover:bg-black"
           onClick={() => setCount((count) => count + 1)}>
-          Count is {count}
+          Count is :{count}
         </button>
       </div>
       <p>Developer Details.</p>
