@@ -7,12 +7,16 @@ function customRender(reactElement, container){
     container.appendChild(domElementContainer)
 }
 
-const reactElement = {
-  type: "a",
-  props: {
+const reactElement = 
+{
+  type: "a"
+  ,
+  props:
+  {
     href: "https://google.com",
     target: "_blank",
-  },
+  }
+  ,
   children: "click me to visit google",
 };
  
