@@ -1,9 +1,8 @@
 import { useState } from "react";
 import React from 'react'
 
-function Card(props) {
-
-
+function Card(props) 
+{
   return (
     <div className="border-solid">
       <div className="relative h-[400px] w-[300px] rounded-md m-auto  border-gray-500 border-2">
